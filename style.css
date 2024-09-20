@@ -1,0 +1,28 @@
+table{
+    font-size: 0.9em;
+    min-width: 400px;
+    border-collapse: collapse;
+    margin: 23px 19px;
+
+    
+}
+h1{
+    color: orange;
+    text-align: left;
+    margin: 20px;
+    line-height: 100px;
+}
+tbody tr{
+    text-align: left;
+    line-height: 70px;
+    border-bottom: 1px solid #dddddd;
+}
+th{
+    text-align: left;
+    line-height: 20px;
+    border-bottom: 2px solid gray;
+
+}
+.colorgg{
+    color: orange;
+}
