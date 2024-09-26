@@ -1,0 +1,42 @@
+h1{
+    font-size: 24px;
+   color: #0000ff;
+    font-weight: bold;
+    font-style: italic;
+}
+h2{
+    font-size: 20px;
+    color: #0000ff;
+    font-weight: bold;
+}
+h3{
+    font-size: 16px;
+    color: teal;
+    font-weight: bold;
+}
+p{
+    color: #4d4d4d;
+
+
+}
+p1{
+    font-weight: bold;
+ color: red;
+}
+a{
+    color: #8a2be2;
+text-decoration: none;
+}
+header{
+    height: 33vw;
+   background: url(img/image.png);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: 100%;
+}
+img{
+    width: 50vw;
+    border: 5px solid black;
+    border-left: 10px solid red;
+    border-radius: 8px;
+}
