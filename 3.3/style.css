@@ -16,12 +16,13 @@ min-width: 400px;
 th{
     min-width: 20px;
     line-height: 20px;
-
-    
 }
-.colorGg{
+.colorgg{
     color: rgb(255, 115, 0);
 
+}
+img{
+    width: 30px;
 }
 .Clubnaam{
     font-weight: bold;
@@ -39,4 +40,7 @@ tbody tr{
     border-bottom: 1px solid#dddddd;
 line-height: 70px;
 
+}
+.clubNaam{
+    font-weight: bold;
 }
