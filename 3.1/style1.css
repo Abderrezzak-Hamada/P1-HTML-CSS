@@ -13,6 +13,7 @@
     font-family: "Goldman", cursive;
     background: url(/image.png);
     background-size: 100%;
+    background-repeat: no-repeat;
   
   }
   
@@ -254,4 +255,44 @@ font-size: 13px;
 }
 .button1{
  
+}
+.body222{
+  font-family: "Goldman", cursive;
+  background: url(/image.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+nav a:hover{
+  background-color: white;
+  color: #00a8c7;
+}
+.dropdowncontent a :hover {
+background-color: #e9e9e9;
+color: #00a8c7;
+}
+.dropdpwn1 :hover .dropdowncontent :hover{
+  display: block;
+  color: #e9e9e9;
+}
+
+.dropdpwn1 .dropdowncontent{
+  display: none;
+  position: absolute;
+}
+.dropdpwn1 :hover .dropdowncontent{
+  display: block;
+}
+.dropdowncontent a{
+color: #00a8c7;
+padding: 10px 13px;
+text-decoration: none;
+display: block;
+}
+.dropdowncontent{
+  margin-top:3.5vh ;
+  background-color: #fff;
+  color: #00a8c7;
+}
+.jaar2{
+  padding: 40px 25px;
 }
