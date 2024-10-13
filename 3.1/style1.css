@@ -256,45 +256,55 @@ font-size: 13px;
 .button1{
  
 }
-.body222{
+.body222 {
   font-family: "Goldman", cursive;
   background: url(/image.png);
   background-size: cover;
   background-repeat: no-repeat;
 }
-nav a:hover{
+
+nav {
+  display: flex;
+  justify-content: space-between; 
+  padding: 10px 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 15px;
+  position: relative; 
+}
+
+nav a:hover {
   background-color: white;
   color: #00a8c7;
 }
-.dropdownCont a:hover {
-background-color: #979494;
-color: #00a8c7;
-}
-.dropdown1 :hover .dropdownCont :hover{
-  display: block;
+
+.dropdown1 {
+  position: relative;
 }
 
-.dropdown1 .dropdownCont{
-  display: none;
+.dropdown1 .dropdownCont {
+  display: none; 
   position: absolute;
+  background-color: #ededed;
+  min-width: 190px;
+  margin-top: 3vh;
+
 }
-.dropdown1:hover .dropdownCont{
+
+.dropdown1:hover .dropdownCont {
   display: block;
 }
-.dropdownCont a{
-color: #00a8c7;
-padding: 10px 13px;
-text-decoration: none;
-display: block;
-}
-.dropdownCont{
-  margin-top:3vh ;
-  background-color: #ededed;
-  color: #00a8c7;
-  min-width: 190px;
-}
-.jaar2{
-  padding: 46px 25px;
 
-  
+.dropdownCont a {
+  color: #00a8c7;
+  padding: 10px 13px;
+  text-decoration: none;
+  display: block;
+}
+
+.jaar2 {
+  padding: 46px 25px;
 }
