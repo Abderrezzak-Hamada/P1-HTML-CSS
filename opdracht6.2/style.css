@@ -1,0 +1,44 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-wrap: nowrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-direction: row-reverse;
+    align-items: flex-start;
+}
+
+
+.box {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 24px;
+}
+
+
+.box.blue {
+    background-color: darkblue;
+}
+
+.box.black {
+    background-color: black;
+}
+
+.box.red {
+    background-color: red;
+}
+
+.box.green {
+    background-color: darkgreen;
+}
